@@ -1,0 +1,19 @@
+/* FONTS FOR STYLING */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Playfair+Display:ital,wght@1,400;1,500&family=Poppins&display=swap');
+:root {
+    --shadow: 0 5px 10px rgba(104, 104, 104, 0.8);
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    height: 100%;
+    line-height: 1.4;
+    background-position: center;
+    background-size: cover;   
+}
