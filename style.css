@@ -17,3 +17,110 @@ body {
     background-position: center;
     background-size: cover;   
 }
+/* START OF THE HERO SECTION */
+/* STYLING THE HERO SECTION IMAGE */
+.hero {
+    background:url("./images/beach-1867026_1920.jpg");
+    background-position: center;
+    background-size: cover;  
+    
+}
+
+/* FOR THE NICE NAV SPACING  */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10em;    
+}
+
+h1 {
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+.nav .navdetails {
+    display: grid;
+    grid-gap: 9px;
+    list-style: none;
+    grid-template-columns: repeat(4, 100px);
+    padding: 0px 7em;
+    align-items: center;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* HOVER EFFECT FOR THE NAV BAR */
+li a:hover {
+    border-bottom: 2px #ef4908 solid;
+    transition: all 0.04s linear;
+    
+}
+/* GRID FOR THE HERO SECTION */
+.socials {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-areas: 
+    'media heading vectorimg'
+    'media subheading vectorimg'
+    'media p1 vectorimg';
+}
+
+/* START OF STYLING FOR SOCIAL MEDIA LINKS */
+/* STYLING THE SOCIAL MEDIA LINK */
+.media {
+    grid-area: media;
+    display: flex;
+    flex-direction: column;
+    margin-top: 18em;
+    margin-left: 30px;
+}
+.media a {
+    padding: 5px;
+}
+.media a:hover {
+    transform: scale(1.15) ;
+    transition: all 0.3s ease;
+}
+/* END OF STYLING FOR SOCIAL MEDIA LINKS */
+
+.heading {
+    grid-area: heading;
+    color: #ef4908;
+    font-weight: 400;
+    font-size: 72px;
+    margin-top: 3em; 
+        
+}
+.heading:hover {
+    transition:  0.9s;
+    transform: translateY(-30px); 
+    color: #a968e6;
+}
+.vectorimg {
+    grid-area: vectorimg;
+    background-size: cover;
+    background-position: center;  
+    opacity: 0.0;  
+}
+ 
+
+.p1 {
+    grid-area: p1;
+    color: #fceeee;
+    margin-top: -18em;
+    font-family: Poppins;
+    font-size:17px;
+    line-height: 32px;
+    
+}
+h3 {
+    font-family: Poppins;
+    color: aliceblue;
+    margin-top: -9em;
+    font-weight: 500;
+    font-size: 22px;
+}
+/* END OF STYLING FOR THE HERO SECTION */
