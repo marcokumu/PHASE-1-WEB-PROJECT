@@ -457,3 +457,60 @@ padding: -10px;
     margin-top: 30px;
     
   }
+
+   /* HOVER EFFECT FOR THE BUTTON */
+   .submitButton:hover {
+    background-color: #a968e6;
+    transform: translateY(-2px);
+  }
+
+  /* FOR LABEL ANIMATION  */
+  .input:focus + .label {
+    top: -18px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: purple;
+    
+  }
+  .input:focus {
+    border: 2px solid purple;
+  }
+
+  /* THIS PREVENTS THE CLASH OF INPUT VALUE AND LABEL */
+  .input:not(:placeholder-shown)+ .label {
+    top: -15px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  /* END OF STYLING FOR SIGN IN/UP FORM */
+
+  /* SOCIAL MEDIA LINKS */
+  #socialmedia {
+    position:relative;
+    display: flex;
+    justify-content: space-around;
+   padding-left: -5em;
+   padding-right: 9em;
+   top: 50px; 
+  }
+  #socialmedia img {
+    border:1px solid #1d1e20;
+    background: #1d1e20;
+    border-radius: 9px;
+    padding: 5px;
+  }
+
+  /* HOVER EFFECT FOR SOCIAL MEDIA LINKS */
+  #socialmedia img:hover {
+    transform: scale(1.3) ;
+    transition: all 0.1s ease;
+  }
+
+  /* AND FINALLY...THE FOOTER */
+  footer {
+    padding-left: 60px;
+  }
