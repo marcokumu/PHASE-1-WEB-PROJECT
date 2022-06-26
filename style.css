@@ -192,3 +192,148 @@ h4 {
     margin-left: 60px;
 }
 /* END OF USER PHOTO VIEWING SECTION */
+
+/* IMAGE TILES WITH SHORT DESCRIPTION  */
+.project-tiles {
+    display: flex;
+    display: grid;
+    grid-gap: 15px;
+    padding: 80px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    background: #6668d9;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    box-shadow: var(--shadow);
+    grid-template-areas: 
+    'project1 project2 project3'
+    'project4 project5 project6';
+}
+.project-tiles h5 {
+text-align: center;
+font-size: 40px;
+}
+
+/* STYLING FOR EACH IMAGE TILE */
+.project1 {
+    margin-left: 20px;
+    grid-area: project1;
+    background-image:linear-gradient(45deg, rgba(237, 165, 164, 0.75),  
+     rgba(23, 53, 83, 0.75)), url( "https://source.unsplash.com/random/369x435");
+    background-position: center;
+    background-size: cover;
+    min-height: 430px;
+    justify-content: center;
+    box-shadow: var(--shadow);
+    border-radius: 15px;
+    
+}
+.project1:hover {
+    background: url("https://source.unsplash.com/random/369x435");
+    transition-property:all;
+    transition-duration: 0.1s;
+    transform: translateY(-9px);
+    transform-style: preserve-3d;
+    transition: 0.9s;
+}
+.project2 {
+    grid-area: project2;
+    background-image:linear-gradient(45deg, rgba(237, 165, 164, 0.40),  
+     rgba(22, 42, 62, 0.75)), url( "https://source.unsplash.com/random/370x435");
+    background-position: center;
+    background-size: cover;
+    min-height: 430px;
+    box-shadow: var(--shadow);
+    border-radius: 15px;
+}
+.project2:hover {
+    background: url("https://source.unsplash.com/random/370x435");
+    transform: translateY(-9px);
+    transition: 0.9s;
+
+}
+.project3 {
+    margin-right: 20px;
+    grid-area: project3;
+    background-image:linear-gradient(45deg, rgba(237, 165, 164, 0.75),  
+     rgba(16, 40, 64, 0.90)), url( "https://source.unsplash.com/random/371x435");
+    background-position: center;
+    background-size: cover;
+    min-height: 430px;
+    box-shadow: var(--shadow);
+    border-radius: 15px;
+}
+
+
+.project3:hover {
+    background: url("https://source.unsplash.com/random/371x435");
+    transform: translateY(-9px);
+    transition: 0.9s;
+
+}
+
+.project4 {
+    margin-left: 20px;
+    grid-area: project4;
+    background-image:linear-gradient(45deg, rgba(237, 165, 164, 0.40),  
+     rgba(6, 13, 31, 0.75)), url( "https://source.unsplash.com/random/372x435");
+    background-position: center;
+    background-size: cover;
+    min-height: 430px;
+    box-shadow: var(--shadow);
+    border-radius: 15px;
+}
+
+.project4:hover {
+    background: url("https://source.unsplash.com/random/372x435");
+    transform: translateY(-9px);
+    transition: 0.9s;
+
+}
+
+.project5{
+    grid-area: project5;
+    background-image:linear-gradient(45deg, rgba(237, 165, 164, 0.40),  
+     rgba(5, 15, 24, 0.75)), url( "https://source.unsplash.com/random/373x435");
+    background-position: center;
+    background-size: cover;
+    min-height: 430px;
+    box-shadow: var(--shadow);
+    border-radius: 15px;
+}
+.project5:hover {
+    background: url("https://source.unsplash.com/random/373x435");
+    transform: translateY(-9px);
+    transition: 0.9s;
+
+}
+.project6 {
+    margin-right: 20px;
+    grid-area: project6;
+    background-image:linear-gradient(45deg, rgba(237, 165, 164, 0.40),  
+     rgba(2, 9, 16, 0.75)), url( "https://source.unsplash.com/random/374x435");
+    background-position: center;
+    background-size: cover;
+    min-height: 430px;
+    box-shadow: var(--shadow);
+    border-radius: 15px;
+}
+.project6:hover {
+    background: url("https://source.unsplash.com/random/374x435");
+    transform: translateY(-9px);
+    transition: 0.9s;
+
+}
+
+h5 {
+    font-size: 32px;
+    line-height: 44px;
+    text-shadow: 2px 2px;
+}
+.project-tiles p {
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+}
+/* END OF STYLING FOR EACH IMAGE TILE */
