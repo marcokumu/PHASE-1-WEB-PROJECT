@@ -47,6 +47,8 @@ git@github.com:marcokumu/PHASE-1-WEB-PROJECT.git
 
 Here is the project's live link:
 
+<a href="https://marcokumu.github.io/PHASE-1-WEB-PROJECT/">Nomadic Travels </a>
+
 
 ## CONTRIBUTING 
 
