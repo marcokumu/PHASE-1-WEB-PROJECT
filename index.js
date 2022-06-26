@@ -47,4 +47,4 @@ const init = () => {
  
  
   }
-  document.addEventListener('DOMContentLoaded', init
+  document.addEventListener('DOMContentLoaded', init)
