@@ -2,7 +2,7 @@
 
 ## AUTHOR 
 
-- ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FMarkOkumu5)
+
 - Github:  <a href="https://github.com/marcokumu">marcokumu </a>
 - LinkedIn:  <a href="https://www.linkedin.com/in/markokumu/">marcokumu </a>
 ## TRAVEL WEBSITE 
