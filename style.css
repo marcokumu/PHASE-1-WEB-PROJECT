@@ -124,3 +124,71 @@ h3 {
     font-size: 22px;
 }
 /* END OF STYLING FOR THE HERO SECTION */
+
+/* GRID TEMPLATE AREAS FOR USER PHOTO VIEWING SECTION */
+.projects {
+    display: grid;
+    grid-template-areas: 
+    'head sect'
+    'head sect';
+    grid-gap: 20px;
+    background: #b8bfba;
+    background-size: cover;
+    background-position: center;
+    padding-left: 80px;
+    background: url("./images/pexels-mario-cuadros-4608979.jpg");
+    background-position: center;
+    background-size: cover;
+}
+ #pictures img {
+    width: 100%;
+    justify-items: start;
+    margin-left: 20px;
+    width: 650px;
+    height: 350px; 
+    box-shadow: 0 3px 5px rgba(104, 104, 104, 0.5); 
+    border-radius: 15px;
+} 
+h4 {
+    font-family: Crete Round;
+    font-weight: 400;
+    font-size: 40px;
+    color: #f5883b;
+    margin-left: 20px;
+}
+.btn {  
+    background: #f5883b;
+    color: white;
+    padding: 2px 660px;
+    text-decoration: none;
+    border-radius: 20px; 
+    padding: 10px 50px;
+    margin-left: 20px;
+   
+}
+ #btn1:hover {
+     transform: translateY(-5px);
+    transition: 0.2s; 
+    cursor: pointer;
+    background: #a968e6;
+}
+
+#btn1:active {
+    transform: scale(0.95);
+}
+.projects .btn {
+    margin-top: 1em;
+}
+.projects .stories {
+    margin-top: 3.7em;
+    color: #f5883b;
+}
+.projects .p2 {
+    margin-top: -2.4em; 
+    width: 75%;
+    margin-left: 20px;
+}
+.projects .works {
+    margin-left: 60px;
+}
+/* END OF USER PHOTO VIEWING SECTION */
