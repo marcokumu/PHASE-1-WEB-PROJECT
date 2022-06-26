@@ -370,3 +370,90 @@ color: #ba08f0;
 padding: -10px;
 } 
 /* END OF THE ABOUT SECTION */
+
+/* SIGN UP FORM STYLING */
+#signup-in {
+    display: flex;
+    padding-left: 105px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    background: #6668d9;
+}
+.sign-in {
+    margin-top: -6.0em;
+}
+.sign-up {
+    padding-bottom: 15px;
+}
+.form {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    border-radius: 8px;
+    padding: 40px 40px;
+    box-shadow: 0 10px 25px rgba(30, 31, 33, 0.2);
+  }
+  .form p {
+    margin-top: -1.9em;
+  }
+  h6 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+  .container {
+    position: relative; 
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+  }
+
+  /* MAKING THE PLACEHOLDER TRANSPARENT */
+ ::placeholder {
+    color: transparent;
+  }  
+
+  /* STYLING THE INPUT BOXES */
+  .input {
+    position:absolute ;
+    top: 0px;
+    left: 0px;
+    height: 100%; 
+    width: 100%;
+    border: 0px solid white;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0px 10px;
+     outline: none; 
+    background: rgb(166, 151, 195);
+     /* z-index: 1;  */
+  }
+
+   .label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    color: #1d1e20;
+    font-size: 16px;
+    transition: 0.5s;
+    /* z-index: 1; */
+  } 
+  /* submit button */
+  .submitButton {
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: rgb(128, 0, 75);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    
+  }
