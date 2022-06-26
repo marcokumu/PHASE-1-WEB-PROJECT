@@ -337,3 +337,36 @@ font-size: 17px;
 line-height: 24px;
 }
 /* END OF STYLING FOR EACH IMAGE TILE */
+
+/* THE ABOUT SECTION */
+#about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background:url("./images/pexels-kindel-media-7149158.jpg");
+    color: aliceblue;
+    padding-left: 100px;
+    padding-right: 0px;
+    background-position: center;
+    background-size: cover;
+}
+/* IMAGE FOR MORE STYLING */
+.frame {
+ width: 100%;
+ padding-top: 80px; 
+ opacity: 0.0;  
+}
+#about p {
+    width: 70%;
+    color: rgb(200, 240, 210);
+    margin-top: -60px; 
+    font-size: 20px;
+    font-family: Poppins;
+}
+#about .head-about {
+font-family: 'Crete Round';
+font-weight: 500;
+font-size: 77px;
+color: #ba08f0;
+padding: -10px;
+} 
+/* END OF THE ABOUT SECTION */
